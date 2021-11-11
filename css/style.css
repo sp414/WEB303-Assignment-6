@@ -1,0 +1,108 @@
+
+/*  */
+
+#event0, #event1{
+    height: 500px;
+    display: none;
+} 
+
+h1{
+	background-color:#A52A2A;
+	text-align:center;
+} 
+
+body > p{
+	background-color:#00FFFF;
+	padding: 20px;
+	display:block;
+	border: 1px solid black;
+} 
+
+/* Accordion CSS  */
+
+.accordion {
+	list-style: none;
+	border: dark solid;
+	padding: 10px;
+	margin: 20px;
+    
+	}
+
+
+ul.accordion{
+    list-style-type: none;
+    padding-left: 0;
+}
+.accordion-control{
+    display: block;
+    text-align: center;
+    color: #000;
+    background-color:yellow;
+    border: 1px solid #000;
+    border-bottom: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.accordion-control:hover{
+    text-decoration: underline;
+}
+li:last-child .accordion-control{
+    border-bottom: 1px solid #000;
+}
+li:last-child .accordion-control.active{
+    border-bottom: 0px;
+}
+.accordion-panel{
+    display: none;
+    border: 1px solid #000;
+    border-top: 0;
+    border-bottom:0;
+    padding: 16px;
+	color: #00FFFF;
+	
+}
+li:last-child .accordion-panel{
+    border-bottom: 1px solid #000;
+} 
+
+
+
+
+
+/* Tab CSS */
+
+.tab-panel {
+    display: none;
+	background-color: #7FFFD4;
+	color: #F0FFFF;
+	
+}
+.tab-panel.active {
+    display: block;
+} 
+
+
+.tab-list{
+	margin-bottom: 0;
+	position: relative;
+    z-index: 15;
+	display: block;
+	
+} 
+
+.tab-list li {
+	display: inline-block;
+	margin-left: 1px;
+	margin-top: 5px;
+	
+}
+
+
+
+/* Footer CSS */ 
+
+footer > p{
+	background-color:#A52A2A;
+	padding: 20px;
+	margin: 20px;
+}
